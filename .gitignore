@@ -1,0 +1,37 @@
+# --- Real data: never committed (Atharva, prospects, labels) ---
+data/*
+!data/README.md
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Local databases and caches ---
+*.sqlite
+*.sqlite3
+*.db
+.cache/
+
+# --- Frontend (Stage 7) ---
+node_modules/
+frontend/dist/
+
+# --- Editors and OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
